@@ -15,6 +15,10 @@ pipeline{
             steps{
                 echo "welcome to etech"
             }
+        }stage('4-keep waling'){
+            sh 'i am engineer koffy'{
+
+            }
         }
     }
 }
