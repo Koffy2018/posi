@@ -6,12 +6,12 @@ pipeline{
                 sh 'df -h'
             }
         }
-        stage(2-keep walking){
+        stage('2-keep walking'){
             steps{
                 sh 'lscpu'
             }
         }
-        stage(2-keep walking){
+        stage('3-keep walking'){
             steps{
                 echo "welcome to etech"
             }
